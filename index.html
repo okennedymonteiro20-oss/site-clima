@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Clima</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Clima Agora</h1>
+
+        <div class="pesquisa">
+            <input type="text"
+            id="campoCidade"
+            placeholder="Digite uma cidade..."
+            >
+
+            <button id="botaoBuscar">Pesquisar</button>
+        </div>
+
+        <p id="mensagem"></p>
+
+        <section class="resultado">
+            <h2 id="nome_cidade">Sua cidade</h2>
+
+            <p id="condicao">Pesquise uma cidade</p>
+
+            <p id="temperatura">-- °C</p>
+
+            <div class="detalhes">
+                <p id="sensacao">Sensação térmica: --</p>
+                <p id="umidade">umidade: --</p>
+                <p id="vento">Vento: --</p>
+            </div>
+            
+        </section>
+
+    </main>
+
+</body>
+</html>
