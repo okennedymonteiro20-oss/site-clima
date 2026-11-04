@@ -13,7 +13,7 @@ body {
     
     color: white;
     font-family: Arial, sans-serif;
-    b background:
+    background:
         radial-gradient(
             ellipse at 15% 10%,
             rgba(65, 65, 90, 0.12),
@@ -22,9 +22,7 @@ body {
         radial-gradient(
             ellipse at 85% 90%,
             rgba(75, 75, 110, 0.10),
-            transparent 40%
-        ),
-        #08080a;
+            transparent 40%),#08080a;
 }
 
 .container {
